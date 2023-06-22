@@ -5,4 +5,5 @@ def pd_check(word):
         return False
     
 
-print(pd_check('лепсспел'))
+word = input()
+print(pd_check(word))
